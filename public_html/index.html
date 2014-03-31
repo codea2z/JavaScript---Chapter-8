@@ -6,13 +6,24 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>JavaScript - Chapter 8</title>
+        <title>Another page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="components.js"></script>
     </head>
-    <body>
-        <div>
-            <a href="info-1.html">Refer to the Next Page Here</a>
-        </div>
+    <body>      
+        <form name="f1" action="processform.cgi" method="GET">
+              <div style="width: 450px; background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6cRd8ykXEpk50TtobiTydwC8LCxIyr1xrUr-qfEaDLkoBCJ34);">
+                  <a name="topOfForm"></a>
+                  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3WWLHrh3pHszyifiDRwJbLMKXjUQAdg2x7v9Ula7HXMkqL_UlFA"
+                       alt="Debate" height="64" width="64">
+                  <input type="text" name="topic" size="30">
+                  <input type="button" value="Ask a Question"><br>
+                  <a href="formhelp.html">Need help?</a>
+                  <a name="btmOfForm"></a>
+            </div>
+        </form>      
+        <div id="panel"></div>
     </body>
 </html>
+
